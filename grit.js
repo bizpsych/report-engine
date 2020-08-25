@@ -1,24 +1,24 @@
 $(document).ready(function() {
   $("#diligence").css( "width", diligence * 10 + '%');
-  $("#diligence").css( "height",diligence * 10 + '%');
+  $("#diligence").css( "height", diligence * 10 + '%');
 
   $("#leadership").css( "width", leadership * 10 + '%');
-  $("#leadership").css( "height",leadership * 10 + '%');
+  $("#leadership").css( "height", leadership * 10 + '%');
 
-  $("#seeking").css( "width", seeking * 10 + '%');
-  $("#seeking").css( "height",seeking * 10 + '%');
+  $("#seeking-graph").css( "width", seeking * 10 + '%');
+  $("#seeking-graph").css( "height", seeking * 10 + '%');
 
   $("#intelect").css( "width", intelect * 10 + '%');
-  $("#intelect").css( "height",intelect * 10 + '%');
+  $("#intelect").css( "height", intelect * 10 + '%');
 
   $("#success").css( "width", success * 10 + '%');
-  $("#success").css( "height",success * 10 + '%');
+  $("#success").css( "height", success * 10 + '%');
 
   $("#autonomy").css( "width", autonomy * 10 + '%');
-  $("#autonomy").css( "height",autonomy * 10 + '%');
+  $("#autonomy").css( "height", autonomy * 10 + '%');
 
   $("#persistence").css( "width", persistence * 10 + '%');
-  $("#persistence").css( "height",persistence * 10 + '%');
+  $("#persistence").css( "height", persistence * 10 + '%');
 
   //Grit Color Conditions
     if (diligence < 7.6) {
@@ -42,12 +42,12 @@ $(document).ready(function() {
       $("#leadership-score").css("color", "#F25C24");
   	}
     if (seeking < 7.6) {
-      $("#seeking").css("border", "4px solid #C18625").css("background", "rgba(193, 134, 37, 0.2)");
+      $("#seeking-graph").css("border", "4px solid #C18625").css("background", "rgba(193, 134, 37, 0.2)");
       $("#seeking-label").css("background", "#C18625");
       $("#seeking-score").css("color", "#ECA327");
     }
     if (seeking < 4.6) {
-      $("#seeking").css("border", "4px solid #CE4427").css("background", "rgba(206, 68, 39, 0.2)");
+      $("#seeking-graph").css("border", "4px solid #CE4427").css("background", "rgba(206, 68, 39, 0.2)");
       $("#seeking-label").css("background", "#CE4427");
       $("#seeking-score").css("color", "#F25C24");
     }
