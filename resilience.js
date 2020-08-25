@@ -1,26 +1,4 @@
 $(document).ready(function() {
-  var optimism = {{wf {&quot;path&quot;:&quot;optimism&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-  var efficacy = {{wf {&quot;path&quot;:&quot;self-efficacy-score&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-  var determination = {{wf {&quot;path&quot;:&quot;determination-score&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-  var temper = {{wf {&quot;path&quot;:&quot;mild-temper-score&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-  var assured = {{wf {&quot;path&quot;:&quot;self-assured-score&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-  var positive = {{wf {&quot;path&quot;:&quot;positive-reinterpretation-score&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-  var adversity = {{wf {&quot;path&quot;:&quot;facing-adversity-score&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-  var diligence = {{wf {&quot;path&quot;:&quot;diligence-score&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-  var leadership = {{wf {&quot;path&quot;:&quot;leadership-score&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-  var seeking = {{wf {&quot;path&quot;:&quot;seeking-success-score&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-  var intelect = {{wf {&quot;path&quot;:&quot;intellect-score&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-  var success = {{wf {&quot;path&quot;:&quot;seeking-success-score&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-  var autonomy = {{wf {&quot;path&quot;:&quot;autonomy-score&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-  var persistence = {{wf {&quot;path&quot;:&quot;persistence-score&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-  var assertiveness = {{wf {&quot;path&quot;:&quot;assertiveness-2&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-  var security = {{wf {&quot;path&quot;:&quot;emotional-security-score&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-  var thinking = {{wf {&quot;path&quot;:&quot;innovative-thinking-score&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-  var confidence = {{wf {&quot;path&quot;:&quot;self-confidence-score&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-  var trust = {{wf {&quot;path&quot;:&quot;team-trust-score&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-  var composure = {{wf {&quot;path&quot;:&quot;composure-score&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-  var ideas = {{wf {&quot;path&quot;:&quot;independent-ideas-score&quot;,&quot;type&quot;:&quot;Number&quot;\} }};
-
   //Graph Calculations
   $("#optimism").css( "width", optimism * 10 + '%');
   $("#optimism").css( "height", optimism * 10 + '%');
