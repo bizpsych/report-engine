@@ -67,7 +67,7 @@ $(document).ready(function() {
   if (optimism < 7.6) {
     $("#optimism").css("border", "4px solid #C18625").css("background", "rgba(193, 134, 37, 0.2)");
     $("#optimism-label").css("background", "#C18625");
-    $("#optimism-score").css("color", "#ECA327");
+    $("#optimism-score").css("color", "#black");
 	}
   if (optimism < 4.6) {
   	$("#optimism").css("border", "4px solid #CE4427").css("background", "rgba(206, 68, 39, 0.2)");
