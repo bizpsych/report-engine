@@ -22,7 +22,7 @@ $(document).ready(function() {
   $("#adversity").css( "height",adversity * 10 + '%');
 
 //Resilience Conditions
-  if (optimism >= 4.5 && optimism <= 7.5 {
+  if (optimism >= 4.5 && optimism <= 7.5) {
     $("#optimism").css("border", "4px solid #C18625").css("background", "rgba(193, 134, 37, 0.2)");
     $("#optimism-label").css("background", "#C18625");
     $("#optimism-score").css("color", "#ECA327");
