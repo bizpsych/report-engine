@@ -21,7 +21,7 @@ $(document).ready(function() {
   $("#adversity").css( "width", adversity * 10 + '%');
   $("#adversity").css( "height",adversity * 10 + '%');
 
-//Resilience Conditions
+//Resilience Color Conditions
   if (optimism >= 4.6 && optimism <= 7.5) {
     $("#optimism").css("border", "4px solid #C18625").css("background", "rgba(193, 134, 37, 0.2)");
     $("#optimism-label").css("background", "#C18625");
@@ -31,5 +31,15 @@ $(document).ready(function() {
     $("#optimism").css("border", "4px solid #CE4427").css("background", "rgba(206, 68, 39, 0.2)");
     $("#optimism-label").css("background", "#CE4427");
     $("#optimism-score").css("color", "#F25C24");
+	}
+  if (efficacy >= 4.6 && efficacy <= 7.5) {
+    $("#efficacy").css("border", "4px solid #C18625").css("background", "rgba(193, 134, 37, 0.2)");
+    $("#efficacy-label").css("background", "#C18625");
+    $("#efficacy-score").css("color", "#ECA327");
+	}
+  if (efficacy >= 0 && efficacy <= 4.5) {
+    $("#efficacy").css("border", "4px solid #CE4427").css("background", "rgba(206, 68, 39, 0.2)");
+    $("#efficacy-label").css("background", "#CE4427");
+    $("#efficacy-score").css("color", "#F25C24");
 	}
 });
