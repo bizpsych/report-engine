@@ -3,7 +3,7 @@ body {
 }
 
 .page-break {
-  break-after: page;
+  break-after: always;
 }
 
 .page{
@@ -12,4 +12,25 @@ body {
   margin: 0;
   position: relative;
   overflow: hidden;
+}
+
+.print-page {
+  diplay-none;
+}
+
+.page.cover {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-position: 50% 50%;
+  background-size: cover;
 }
