@@ -42,4 +42,30 @@ $(document).ready(function() {
     $("#efficacy-label").css("background", "#CE4427");
     $("#efficacy-score").css("color", "#F25C24");
 	}
+
+//Resilience Detailed Metrics
+if (optimism >= 0 && optimism <= 2.5) {
+  $("#optimism-lowest").show();
+  $("#optimism-low").hide();
+  $("#optimism-mid").hide();
+  $("#optimism-high").hide();
+}
+if (optimism >= 2.6 && optimism <= 5) {
+  $("#optimism-lowest").hide();
+  $("#optimism-low").show();
+  $("#optimism-mid").hide();
+  $("#optimism-high").hide();
+}
+if (optimism >= 5.1 && optimism <= 7.5) {
+  $("#optimism-lowest").hide();
+  $("#optimism-low").hide();
+  $("#optimism-mid").show();
+  $("#optimism-high").hide();
+}
+if (optimism >= 7.6 && optimism <= 10) {
+  $("#optimism-lowest").hide();
+  $("#optimism-low").hide();
+  $("#optimism-mid").hide();
+  $("#optimism-high").show();
+}
 });
