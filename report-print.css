@@ -20,7 +20,7 @@ body {
 }
 
 .print-page {
-  diplay: none;
+  diplay: none !important;
 }
 
 .page.cover {
