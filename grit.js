@@ -1,16 +1,16 @@
 $(document).ready(function() {
   //Graph Calculations
-  $("#diligence").css( "width", optimism * 10 + '%');
-  $("#diligence").css( "height", optimism * 10 + '%');
+  $("#diligence").css( "width", diligence * 10 + '%');
+  $("#diligence").css( "height", diligence * 10 + '%');
 
-  $("#leadership").css( "width", efficacy * 10 + '%');
-  $("#leadership").css( "height", efficacy * 10 + '%');
+  $("#leadership").css( "width", leadership * 10 + '%');
+  $("#leadership").css( "height", leadership * 10 + '%');
 
-  $("#seeking").css( "width", determination * 10 + '%');
-  $("#seeking").css( "height", determination * 10 + '%');
+  $("#seeking").css( "width", seeking * 10 + '%');
+  $("#seeking").css( "height", seeking * 10 + '%');
 
-  $("#intelect").css( "width", temper * 10 + '%');
-  $("#intelect").css( "height", temper * 10 + '%');
+  $("#intelect").css( "width", intelect * 10 + '%');
+  $("#intelect").css( "height", intelect * 10 + '%');
 
   $("#success").css( "width", success * 10 + '%');
   $("#success").css( "height", success * 10 + '%');
