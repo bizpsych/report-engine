@@ -164,9 +164,25 @@ grid-row-gap: 10pt;
 }
 .chart-wrapper{
   margin-top: 151pt;
-  width: 3.05in;
-  height: 3.05in;
+  width: 293pt;
+  height: 293pt;
 }
+.circles{
+  width: 293pt;
+  height: 293pt;
+}
+.chart-line{
+  height: 4pt;
+}
+.chart-line.line1{
+  top: 71pt;
+  left: 74pt;
+}
+
+
+
+
+
 
 
 }
