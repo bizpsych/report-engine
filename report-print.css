@@ -11,8 +11,8 @@ body {
 }
 
 .sheet {
-  width: 8.5in;
-  height: 11in;
+  width: 8.5in !important;
+  height: 11in !important;
 page-break-after: always;
 }
 .print-hide {
@@ -296,7 +296,7 @@ grid-row-gap: 10pt;
 }
 .metric-item{
   padding-top: 4pt;
-  padding-bottom: 8pt;
+  padding-bottom: 6pt;
 }
 .detailed-metric-box{
   margin-left: 20pt;
@@ -308,13 +308,50 @@ grid-row-gap: 10pt;
 .metric-name{
   font-size: 16pt;
   line-height: 24pt;
-  margin-bottom: 4pt;
+  margin-bottom: 0pt;
 }
 .metric-text{
   font-size: 11pt;
   line-height: 15pt;
 }
+.page.page-resume{
+  padding: 31pt 48pt 31pt 48pt;
+}
+.resume-top{
+  padding-top: 18pt;
+  margin-bottom: 51pt;
+}
+.resume h2 {
+  margin-top: 0pt;
+  margin-bottom: 18pt;
+  font-size: 25pt;
+  line-height: 30pt;
+}
 
+.resume h3 {
+  margin-top: 0pt;
+  margin-bottom: 18pt;
+  font-size: 25pt;
+}
+
+.resume h4 {
+  margin-top: 0pt;
+  margin-bottom: 18pt;
+  font-size: 25pt;
+  line-height: 30pt;
+}
+
+.resume p {
+  margin-bottom: 18pt;
+  font-size: 15pt;
+  line-height: 23pt;
+}
+
+.resume li {
+  margin-right: 10pt;
+  margin-bottom: 10pt;
+  padding: 6pt;
+}
 
 
 
