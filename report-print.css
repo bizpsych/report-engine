@@ -259,7 +259,26 @@ grid-row-gap: 10pt;
   right: 107pt;
   bottom: 472pt;
 }
-
+.component-name{
+  font-size: 14pt;
+  line-height: 18pt;
+}
+.component-options{
+  margin-top: 8pt;
+}
+.component-options.options-on-top{
+  margin-top: 0pt;
+  margin-bottom: 8pt;
+}
+.component-text{
+  font-size: 11pt;
+  line-height: 15pt;
+}
+.score-box{
+  height: 24pt;
+  font-size: 13pt;
+  line-height: 16pt;
+}
 
 
 
