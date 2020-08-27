@@ -174,9 +174,90 @@ grid-row-gap: 10pt;
 .chart-line{
   height: 4pt;
 }
-.chart-line.line1{
-  top: 71pt;
+.chart-line.line1 {
   left: 74pt;
+  top: 71pt;
+  width: 50%;
+}
+
+.chart-line.line2 {
+  left: 14pt;
+  top: 98pt;
+}
+
+.chart-line.line3 {
+  left: 1pt;
+  top: 163pt;
+}
+
+.chart-line.line4 {
+  left: 40pt;
+  top: 212pt;
+}
+
+.chart-line.line5 {
+  left: 107pt;
+  top: 214pt;
+}
+
+.chart-line.line6 {
+  left: 146pt;
+  top: 162pt;
+}
+
+.chart-line.line7 {
+  left: 133pt;
+  top: 97pt;
+}
+.component-wrapper {
+  left: 0pt;
+  top: 0pt;
+  max-width: 154pt;
+}
+
+.component-wrapper.optimism-box {
+  left: 87pt;
+  bottom: 474pt;
+}
+
+.component-wrapper.efficacy-box {
+  left: 10pt;
+  top: 387pt;
+  max-width: 146pt;
+}
+
+.component-wrapper.determination-box {
+  left: 24pt;
+  top: 544pt;
+}
+
+.component-wrapper.temper-box {
+  left: 0pt;
+  top: 614pt;
+  right: 0pt;
+  bottom: auto;
+  max-width: 170pt;
+}
+
+.component-wrapper.temper-box.confidence-box {
+  max-width: 200pt;
+}
+
+.component-wrapper.assured-box {
+  left: auto;
+  top: 551pt;
+  right: 27pt;
+}
+
+.component-wrapper.positive-box {
+  right: 9pt;
+  bottom: 303pt;
+  max-width: 141pt;
+}
+
+.component-wrapper.adversity-box {
+  right: 107pt;
+  bottom: 472pt;
 }
 
 
