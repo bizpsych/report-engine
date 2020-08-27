@@ -101,7 +101,46 @@ grid-row-gap: 10pt;
   font-size: 34pt;
   line-height: 40pt;
 }
-
+.trait-cover-content{
+  max-width: 450pt;
+}
+.trait-title {
+  font-size: 46pt;
+  line-height: 52pt;
+  margin-bottom: 16pt;
+}
+.trait-subhead{
+  font-size: 21pt;
+  line-height: 26pt;
+  margin-bottom: 32pt;
+}
+.trait-description{
+  font-size: 16pt;
+  line-height: 25pt;
+  margin-bottom: 20pt;
+}
+.trait-score{
+  margin-bottom: 29pt;
+  padding-top: 15pt;
+}
+.trait-label{
+  font-size: 24pt;
+  line-height: 30pt;
+}
+.trait-overall{
+  padding-left: 11pt;
+  font-size: 24pt;
+  line-height: 30pt;
+}
+.trait-bullets ul {
+    grid-row-gap: 16pt;
+}
+.trait-bullets li {
+  font-size: 16pt;
+  line-height: 26pt;
+  padding-left: 18pt;
+  background-size: 12pt;
+}
 
 
 
