@@ -352,7 +352,14 @@ grid-row-gap: 10pt;
   margin-bottom: 10pt;
   padding: 6pt;
 }
-
+.resume-head{
+  font-size: 19pt;
+  line-height: 24pt;
+}
+.resume-overall-box{
+  font-size: 19pt;
+  line-height: 24pt;
+}
 
 
 
