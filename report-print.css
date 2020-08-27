@@ -360,7 +360,10 @@ grid-row-gap: 10pt;
   font-size: 19pt;
   line-height: 24pt;
 }
-
+.sheet-last {
+  width: 8.5in !important;
+  height: 11in !important;
+}
 
 
 
