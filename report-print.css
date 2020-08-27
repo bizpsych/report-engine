@@ -1,19 +1,23 @@
 @page {
-margin: 0mm;
-width: 215.9mm;
-height: 279.4mm;
+margin: 0in;
+width: 8.5in;
+height: 11in;
 }
 
 @media print {
 
 .sheet {
-width: 215.9mm;
-height: 279.4mm;
+  width: 8.5in;
+  height: 11in;
 page-break-after: always;
 }
 
 .print-hide {
 display: none;
+}
+
+.cover-image {
+  width: 1.885in;
 }
 
 .report-title {
