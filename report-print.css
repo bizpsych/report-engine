@@ -16,6 +16,9 @@ body {
   page-break-after: always;
   margin-bottom: 0pt !important;
 }
+.page-last{
+    margin-bottom: 0pt !important;
+}
 .print-hide {
 display: none;
 }
