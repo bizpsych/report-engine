@@ -1,41 +1,26 @@
-body {
-  background: #0A0519;
-}
-
 @page {
-  width:8.5in;
-  height: 11in;
+margin: 0mm;
+width: 215.9mm;
+height: 279.4mm;
 }
 
-.page-break {
-  break-after: always;
+@media print {
+
+.sheet {
+width: 215.9mm;
+height: 279.4mm;
+page-break-after: always;
 }
 
-.page{
-  width: auto;
-  height: auto;
-  margin: 0;
-  position: relative;
-  overflow: hidden;
+.print-hide {
+display: none;
 }
 
-.print-page {
-  diplay: none !important;
-}
 
-.page.cover {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-position: 50% 50%;
-  background-size: cover;
+
+
+
+
+
+
 }
