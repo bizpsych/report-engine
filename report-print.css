@@ -20,6 +20,11 @@ display: none;
   width: 1.885in;
 }
 
+.cover-content {
+top: 64pt;
+left: -6pt;
+}
+
 .report-title {
   font-size: 42pt;
   line-height: 44pt;
@@ -39,6 +44,7 @@ display: none;
 .cover-text {
   font-size: 21pt;
   line-height: 32pt;
+  max-width: 407pt;
 }
 
 
