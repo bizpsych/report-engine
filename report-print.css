@@ -23,6 +23,7 @@ display: none;
 .report-title {
   font-size: 42pt;
   line-height: 44pt;
+  max-width: 310pt;
 }
 
 .cover-subhead {
