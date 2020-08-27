@@ -2,9 +2,13 @@
 margin: 0in;
 width: 8.5in;
 height: 11in;
+background: #0a0519;
 }
 
 @media print {
+body {
+  background: #0a0519;
+}
 
 .sheet {
   width: 8.5in;
@@ -47,7 +51,29 @@ left: -6pt;
   max-width: 407pt;
 }
 
+.into-content {
+  max-width: 440pt;
+}
 
+.head-intro {
+  margin-bottom: 37pt;
+  font-size: 38pt;
+  line-height: 44pt;
+}
 
+.intro-text {
+  margin-bottom: 43pt;
+  font-size: 17pt;
+  line-height: 27pt;
+}
+
+.intro-logos-head {
+  font-size: 18pt;
+  line-height: 24pt;
+}
+
+.logos-img {
+  width: 5.609in;
+}
 
 }
