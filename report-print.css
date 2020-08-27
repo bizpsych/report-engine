@@ -72,8 +72,25 @@ left: -6pt;
   line-height: 24pt;
 }
 
+.intro-logos-grid{
+  margin-top: 20pt;
+}
+
 .logos-img {
   width: 5.609in;
+}
+
+.page.page-overview {
+  padding-top: 50pt;
+}
+
+.overview-top {
+  margin-bottom: 40pt;
+}
+
+.head-overview {
+  font-size: 50pt;
+  line-height: 56pt;
 }
 
 }
