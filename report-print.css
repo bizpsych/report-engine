@@ -13,7 +13,8 @@ body {
 .sheet {
   width: 8.5in !important;
   height: 11in !important;
-page-break-after: always;
+  page-break-after: always;
+  margin-bottom: 0pt;
 }
 .print-hide {
 display: none;
