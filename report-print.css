@@ -13,12 +13,28 @@ page-break-after: always;
 }
 
 .print-hide {
-display: block;
+display: none;
 }
 
+.report-title {
+  font-size: 42pt;
+  line-height: 44pt;
+}
 
+.cover-subhead {
+  font-size: 30pt;
+  line-height: 36pt;
+}
 
+.cover-team {
+  font-size: 25pt;
+  line-height: 30pt;
+}
 
+.cover-text {
+  font-size: 21pt;
+  line-height: 32pt;
+}
 
 
 
