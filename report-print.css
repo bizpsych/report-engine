@@ -14,7 +14,7 @@ body {
   width: 8.5in !important;
   height: 11in !important;
   page-break-after: always;
-  margin-bottom: 0pt;
+  margin-bottom: 0pt !important;
 }
 .print-hide {
 display: none;
